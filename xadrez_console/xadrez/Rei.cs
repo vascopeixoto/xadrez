@@ -8,6 +8,7 @@ namespace xadrez
         public Rei(Tabuleiro tab, Cor cor,Partida partida) : base(tab, cor)
         {
             this.partida = partida;
+
         }
 
         public override string ToString()
