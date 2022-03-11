@@ -16,5 +16,9 @@ namespace tabuleiro
             qteMov = 0;
         }
 
+        public void incrementar()
+        {
+            qteMov++;
+        }
     }
 }
